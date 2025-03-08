@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+*{
+   margin: 0;
+   padding: 10;
+   box-sizing: border-box; 
+}
+
+body{
+    background-color: rgb(250, 204, 254);
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Monsieur La Doulaise", cursive;
+    color: brown;
+}
+
+.main{
+    
+    width: 500px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.footer{
+    text-align: center;
+}
