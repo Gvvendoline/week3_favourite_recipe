@@ -14,14 +14,36 @@ body{
     font-size: 3rem;
     font-family: "Monsieur La Doulaise", cursive;
     color: brown;
+    animation: heading 3s ease-in-out forwards;
+    animation-iteration-count: infinite;
+    transform: rotateX(180deg);
+}
+@keyframes heading {
+    100%{transform: rotate(0deg);}
+
+}
+.picture{
+    text-align: center;
+    position: relative;
+    top: -300px;
+    animation: picture 3s ease-in-out forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes picture {
+    100% {top: 0;}
+
 }
 
 .main{
-    
     width: 500px;
     height: 350px;
     border: 1px solid black;
     margin: 0 auto;
+    animation: text 5s ease-in-out forwards;
+    opacity: 0;
+}
+@keyframes text {
+    100%{opacity: 1;}
 }
 
 .footer{
